@@ -1,4 +1,4 @@
-package com.example.tourismmdg
+package com.example.tourismmdg.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,7 @@ import android.os.Handler
 import android.view.animation.Animation
 import android.view.animation.RotateAnimation
 import android.widget.ImageView
+import com.example.tourismmdg.R
 
 class MainActivity : AppCompatActivity() {
     private val splashTime = 2000
