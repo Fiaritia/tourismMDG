@@ -21,14 +21,14 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="526dp"
-            android:layout_height="338dp"
-            android:layout_marginTop="8dp"
+            android:layout_width="388dp"
+            android:layout_height="245dp"
+            android:layout_marginTop="28dp"
             android:contentDescription="app_name"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/logo"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="-70dp" />
+            tools:layout_editor_absoluteX="-3dp" />
 
         <TextView
             android:id="@+id/textView"
@@ -37,7 +37,8 @@
             android:text="Inscrivez-vous"
             android:textSize="25sp"
             tools:layout_editor_absoluteX="104dp"
-            tools:layout_editor_absoluteY="274dp" />
+            tools:layout_editor_absoluteY="274dp"
+            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/username"
@@ -103,7 +104,8 @@
             android:onClick="selectPhotoFromGallery"
             android:text="Sélectionner une photo"
             tools:layout_editor_absoluteX="75dp"
-            tools:layout_editor_absoluteY="614dp" />
+            tools:layout_editor_absoluteY="614dp"
+            tools:ignore="MissingConstraints" />
 
         <ImageView
             android:id="@+id/photoImageView"
