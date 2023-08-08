@@ -25,13 +25,6 @@
             android:src="@drawable/ic_notifications_white_24dp" />
 
         <ImageView
-            android:id="@+id/profileIco"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@drawable/ic_baseline_person_24" />
-
-        <ImageView
             android:id="@+id/settingsIco"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

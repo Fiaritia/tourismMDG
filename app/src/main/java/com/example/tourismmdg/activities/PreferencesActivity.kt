@@ -1,5 +1,6 @@
 package com.example.tourismmdg.activities
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -18,6 +19,7 @@ class PreferencesActivity : AppCompatActivity() {
     private lateinit var modeToggleImageView: ImageView
     private var isNightMode = false
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
