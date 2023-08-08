@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         // Décaler le passage à l'écran d'accueil après les 3s
         Handler().postDelayed({
-            val intent = Intent(this@MainActivity, HomeActivity::class.java)
+            val intent = Intent(this@MainActivity, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }, splashTime.toLong())
